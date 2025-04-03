@@ -1,0 +1,6 @@
+1. ProduktController.php
+-Zmieniono get() na paginate(6), aby podzielić produkty na strony.
+- Dodano appends($request->query()), aby paginacja zachowywała wyszukiwanie i filtry.
+2. produkty.lista.blade.php
+- Dodano links(), aby wyświetlić nawigację paginacji.
+- Użyto appends(request()->query()), żeby zachować filtrację i wyszukiwanie.
