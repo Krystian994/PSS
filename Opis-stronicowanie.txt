@@ -4,3 +4,4 @@
 2. app/resources/views/produkty/lista.blade.php
 - Dodano links(), aby wyświetlić nawigację paginacji.
 - Użyto appends(request()->query()), żeby zachować filtrację i wyszukiwanie.
+data 03/04/25
