@@ -1,5 +1,8 @@
-1. Podzieliłem, kod HTML na dwie części:
-resources/views/produkty/lista.blade.php – teraz zawiera główną stronę: formularz szukania, filtry kategorii, nagłówek i miejsce (#produkty-wrapper) na dynamicznie ładowane produkty.
+Dodanie Ajax:
 
-resources/views/produkty/partials/lista-produktow.blade.php – zawiera samą listę produktów (karty + paginację).
+resources/views/produkty/partials/lista-produktow.blade.php -	Nowy plik z samą listą produktów
+
+public/js/produkty.js -	Nowy plik JavaScript do obsługi AJAX
+
+resources/views/layouts/main.blade.php -	Dodanie <script src="..."> aby załadować nowy produkty.js
 
