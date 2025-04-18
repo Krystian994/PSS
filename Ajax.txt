@@ -1,0 +1,5 @@
+1. Podzieliłem, kod HTML na dwie części:
+resources/views/produkty/lista.blade.php – teraz zawiera główną stronę: formularz szukania, filtry kategorii, nagłówek i miejsce (#produkty-wrapper) na dynamicznie ładowane produkty.
+
+resources/views/produkty/partials/lista-produktow.blade.php – zawiera samą listę produktów (karty + paginację).
+
