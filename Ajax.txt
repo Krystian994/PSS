@@ -1,8 +1,10 @@
 Dodanie Ajax: 18/04/2025
 
 resources/views/produkty/partials/lista-produktow.blade.php -	Nowy plik z samą listą produktów
+odpowiada tylko za wyświetlanie samej listy produktów i paginacji, ładowany AJAX-em bez przeładowywania całej strony.(<html>, <head>, <body> itd).
 
 public/js/produkty.js -	Nowy plik JavaScript do obsługi AJAX
+wysyła zapytania AJAX do serwera i dynamicznie podmienia HTML na stronie bez pełnego odświeżania strony.
 
-resources/views/layouts/main.blade.php -	Dodanie <script src="..."> aby załadować nowy produkty.js
+resources/views/layouts/main.blade.php -	Dodanie <script src="{{ asset('js/produkty.js') }}"></script> aby załadować nowy produkty.js
 
