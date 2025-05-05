@@ -1,1 +1,3 @@
 Zainstalowanie filament dla laravel - odpowiedznik cms made simple
+----------------------------------
+Wrzucenie poprawionej wersji, czyli nowa strona gdzie został zainstalowany cms made simple.
